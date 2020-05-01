@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/1588330763.ico"/>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h1 class="title">Why-Esport</h1>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Divisions.html">Divisions</a></li>
+				<li><a href="Teams.html">Teams</a></li>
+				<li><a href="Partner.html">Partner</a></li>
+				<li><a href="Academy.html">Academy</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="navigation-bar" class="header2">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Divisions.html">Divisions</a></li>
+				<li><a href="Teams.html">Teams</a></li>
+				<li><a href="Partner.html">Partner</a></li>
+				<li><a href="Academy.html">Academy</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<img class="contact" src="img/contact.png">
+		<div class="content6">
+			<h3>Contact Form</h3>
+			<div class="container2">
+			  <form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="Your name..">
+				 <label for="Email">E-mail</label>
+				<input type="text" id="email" name="email" placeholder="Your E-email..">
+				<label for="subject">Subject</label>
+				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+				<button onclick="myFunction()">Submit</button>
+			  </form>
+			</div>
+		</div>
+		<div class="footer">
+			<p class="copy">Copyright 2020.  Why-Esport<br>
+				Design by: Wahyu Purna</p>
+		</div>
+	</div>
+	<script>
+	function myFunction() {
+	  alert("Success");
+	}
+	</script>
+	<script>
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+		document.getElementById("navigation-bar").style.top = "0";
+	  } else {
+		document.getElementById("navigation-bar").style.top = "-100vw";
+	  }
+	}
+	</script>
+</body>
+</body>
+</html>
